@@ -1,0 +1,165 @@
+:root {
+    --primary-color:#080808;
+    --secondary-color : rgba(255, 255, 255, 0.712);
+    --black-light-color : #2e2e2e;
+    --text-color:#3a3a3a;
+    --blue-color : #5692F5;
+    --Green-color : #7CDB54;
+
+  }
+  
+  html, body {
+    margin:0;
+    font-family: 'Source Sans Pro';
+    font-size:17px;
+    background: #141416;
+    color: grey;
+  }
+
+  h1 {
+    text-align: center;
+    color: whitesmoke;
+    text-transform: uppercase;
+  }
+
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 150px;
+  }
+
+
+  table {
+    margin: auto;
+    background-color: var(--primary-color);
+    border: var(--blue-color);
+    border-style: double;
+  }
+
+  tr {
+    background-color: #23262f;
+    color: rgba(255, 255, 255, 0.712);
+  }
+
+  th{
+    background-color: var(--black-light-color);
+    color: #ffffff;
+    padding: 8px;
+  }
+
+  td{
+    padding: 8px;
+    text-align: center;
+    text-align: left;
+  }
+
+  .bu-content {
+    text-align: center;
+  }
+
+  button {
+    display: inline-block;
+    border-radius: 25px;
+    background-color: var(--black-light-color);
+    border-style: ridge;
+    border-color: var(--blue-color);
+    box-shadow: 1px 1px 15px 1px var(--blue-color);
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    padding: 10px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  button:hover {
+
+    color: var(--blue-color);
+
+  }
+
+  button:active {
+    transform: translateY(8px)  
+  }
+  
+  input {
+    display: inline-block;
+    border-radius: 15px;
+    border-color: #ffffffb0;
+    border-style: ridge;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    width: 500px;
+    margin: 25px 5px 5px 5px;
+  }
+
+  label {
+    color: var(--secondary-color);
+    font-size: 25px;
+  }
+
+  .bu-board {
+    text-align: center
+  }
+
+  .bu-stats {
+    display: inline-block;
+    background-color: var(--black-light-color);
+    color: white;
+    padding: 15px;
+    margin: 50px 10px;
+    border-radius: 25px;
+    border: var(--blue-color);
+    height: 80px;
+    width: 150px;
+    border-style: ridge;
+    font-size: 22px;
+  }
+ 
+  i {
+    margin: 5px;
+    color: var(--blue-color);
+  }
+
+  @media screen and (max-width: 1280px) {
+
+    button {
+
+      display: flex;
+      width: auto;
+      margin: auto;
+    }
+
+    input {
+
+      margin: 15px auto;
+      display: flex;
+      width: auto;
+    }
+
+    table {
+      margin: auto;
+      border: none;
+      border-style: none;
+    }
+
+    .bu-table {
+      border: var(--blue-color);
+      border-style: double;
+      width: 90%;
+      margin: auto;
+      overflow-x: auto;
+    }
+
+    .bu-stats {
+
+      margin: 10px auto;
+      width: 150px;
+    }
+
+  }

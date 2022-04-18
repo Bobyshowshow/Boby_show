@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <title>BabyUST - Rewards Tracker</title>
+    <link rel="icon" href="img/Fichier 4.png"></link>
+
+</head>
+
+<img class="logo" src="IMG/Fichier 4.png"><h1>Track my BNB REwards</h1><img>
+
+
+
+<h1 id="priceBNB" hidden>...</h1>
+
+
+    <div class="bu-content">
+        
+        <label for="bu-input">Wallet: </label>
+        <input type="text" id="Wallet" placeholder="0x..." value="0xB96A8bCE825F7595e07C8aBA797737E23bCb8950">
+
+        <button id="btn" onclick="toggleTable();">Track</button>
+        
+    </div>
+
+
+    <div class="bu-board">
+        
+        <div class="bu-stats">
+            <i class="fa-solid fa-hand-holding-dollar"></i>
+            <div> Total Profit </div>
+            <div id="total"> ... </div>
+        </div>
+        <div class="bu-stats">
+            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+            <div> Transactions</div>
+            <div id="tx">...</div>
+        </div>
+    </div>
+
+    <div class="bu-table">
+        <table id="bu-table-cc">
+            <thead>
+                <tr class="bu-tr">
+                    <th id="Hash">Date </td>
+                    <th id="Value">Rewards (BNB) </td>
+                    <th id="Value">Rewards ($) </td>
+                    <th id="Time">Transaction Hash </td>
+                </tr>
+            </thead>
+            <tbody id="bu-table-cc-body">
+
+            </tbody>
+        </table>
+</div>
+
+ 
+    <script src="index.js"></script>                    
+</body>
+</html>
