@@ -26,30 +26,30 @@ const getTX = async () => {
     const url3 = '&startblock=0&endblock=999999999&sort=desc&apikey=JWQSFDGYWHBB5JB3CRS58SCPFIB8CJ6SD8%27';
     const url = url1 + url2 + url3;
 
-    console.log(url);
-
-    var wallet = document.getElementById("Wallet").value;
-
     fetch(url)
     .then((Response) => {
         return Response.json();
     }).then((data) => {
         //console.log(data.result);
         
-
-        
         const results = data.result;
         let somme = 0;
+        let tx = 0;
         //convert
         const convert = document.getElementById("priceBNB").innerHTML;
-         //Transactions
-        document.getElementById("tx").innerHTML = results.length;
-        //boucle
-        document.getElementById("bu-table-cc-body").innerHTML = '';
-        //console.log(results);
-        results.forEach((result) => {
+        
 
-            
+        //reset à zero
+        document.getElementById("bu-table-cc-body").innerHTML = '';
+        
+        
+        //console.log(results);
+        results.forEach((result) => { 
+          if (result.from == '0x9e1e8343a3cae07881307f3c29ea40cae3cac049') {
+
+            //filter
+            const B = result.from;
+            //value $, BNB, Date
             const A = (result.value / 10 ** 18) * convert;
             const E = (result.value / 10 ** 18);
             const C = result.hash; 
@@ -66,11 +66,13 @@ const getTX = async () => {
            
             //Somme
             somme += A;
-            
-            document.getElementById("total").innerHTML = '$' + parseFloat(somme).toFixed(2);
-            //console.log(somme);
-     
+            // incrémentation de 1
+            tx++;
+          } 
         });
+         //Transactions
+        document.getElementById("tx").innerHTML = tx; 
+        document.getElementById("total").innerHTML = '$' + parseFloat(somme).toFixed(2);
     })
 }
 
