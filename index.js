@@ -1,1 +1,81 @@
-const _0x28636a=_0x3977;(function(_0x258513,_0x21ab1c){const _0x57545d=_0x3977,_0x33af3d=_0x258513();while(!![]){try{const _0x49ea25=-parseInt(_0x57545d(0x152))/0x1*(-parseInt(_0x57545d(0x144))/0x2)+parseInt(_0x57545d(0x14c))/0x3*(parseInt(_0x57545d(0x143))/0x4)+-parseInt(_0x57545d(0x147))/0x5+parseInt(_0x57545d(0x14d))/0x6+-parseInt(_0x57545d(0x165))/0x7+-parseInt(_0x57545d(0x157))/0x8*(-parseInt(_0x57545d(0x153))/0x9)+-parseInt(_0x57545d(0x15f))/0xa;if(_0x49ea25===_0x21ab1c)break;else _0x33af3d['push'](_0x33af3d['shift']());}catch(_0x2ed958){_0x33af3d['push'](_0x33af3d['shift']());}}}(_0x4185,0xc4841));const getData=async()=>{const _0x3a9389=_0x3977;fetch(_0x3a9389(0x166))['then'](_0x2d025b=>_0x2d025b[_0x3a9389(0x162)]())[_0x3a9389(0x161)](_0xe6f299=>{const _0x4e8e77=_0x3a9389;document[_0x4e8e77(0x158)](_0x4e8e77(0x164))['innerHTML']=parseFloat(_0xe6f299[_0x4e8e77(0x155)]['price'])['toFixed'](0x2);});};getData(),tcount=setInterval(function(){tcount++,tcount==0xa&&(getData(),tcount=0x0);},0x3e8);function _0x4185(){const _0x936646=['2078mstdjo','9OfCitI','value','data','</td></tr>','10443432ZBlWMH','getElementById','innerHTML','timeStamp','bu-table-cc-body','forEach','&startblock=0&endblock=999999999&sort=desc&apikey=JWQSFDGYWHBB5JB3CRS58SCPFIB8CJ6SD8%27','btn','29184040xTudqI','log','then','json','</td><td>','priceBNB','3148145mNRDmx','https://api.pancakeswap.info/api/v2/tokens/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c','2748568RuKOTg','1346xwUdQa','result','total','2980220OZKvlB','Wallet','length','getUTCMonth','getUTCFullYear','6oeTLmS','4145430IHCEps','getUTCDate','<tr><td>','getUTCMinutes','toFixed'];_0x4185=function(){return _0x936646;};return _0x4185();}const getTX=async()=>{const _0x4aab98=_0x3977,_0x4986bf='https://api.bscscan.com/api?module=account&action=txlistinternal&contractaddress=0x93a6bc68544c298dd4733740c77aaa616b092be1&address=',_0x1031bd=document[_0x4aab98(0x158)](_0x4aab98(0x148))['value'],_0x5a4c08=_0x4aab98(0x15d),_0x214353=_0x4986bf+_0x1031bd+_0x5a4c08;console[_0x4aab98(0x160)](_0x214353);var _0x455fc4=document[_0x4aab98(0x158)](_0x4aab98(0x148))['value'];fetch(_0x214353)['then'](_0x5815e6=>{const _0x67d44b=_0x4aab98;return _0x5815e6[_0x67d44b(0x162)]();})[_0x4aab98(0x161)](_0x536060=>{const _0x49b192=_0x4aab98,_0x3de6f0=_0x536060[_0x49b192(0x145)];let _0x4a3bf4=0x0;const _0x5c53ef=document[_0x49b192(0x158)](_0x49b192(0x164))[_0x49b192(0x159)];document[_0x49b192(0x158)]('tx')['innerHTML']=_0x3de6f0[_0x49b192(0x149)],document['getElementById'](_0x49b192(0x15b))['innerHTML']='',_0x3de6f0[_0x49b192(0x15c)]((_0x2274f6,_0xd7f417)=>{const _0x3d3577=_0x49b192,_0x23055d=_0x2274f6[_0x3d3577(0x154)]/0xa**0x12*_0x5c53ef,_0x11dcb7=_0x2274f6[_0x3d3577(0x154)]/0xa**0x12,_0x3fb5dd=_0xd7f417,_0x5d3a0d=_0x2274f6['hash'],_0x28c9be=new Date(_0x2274f6[_0x3d3577(0x15a)]*0x3e8),_0x45cf79=_0x28c9be[_0x3d3577(0x14e)](),_0x196b56=_0x28c9be[_0x3d3577(0x14a)](),_0x2a7b72=_0x28c9be[_0x3d3577(0x14b)](),_0x30c1aa=_0x28c9be['getUTCHours'](),_0x44625c=_0x28c9be[_0x3d3577(0x150)](),_0x4b1221=_0x196b56+0x1+'-'+_0x45cf79+'-'+_0x2a7b72+'\x20'+_0x30c1aa+':'+_0x44625c;document[_0x3d3577(0x158)](_0x3d3577(0x15b))[_0x3d3577(0x159)]+=_0x3d3577(0x14f)+_0x4b1221+'</td><td>'+_0x11dcb7+_0x3d3577(0x163)+_0x23055d+'</td><td>'+_0x5d3a0d+_0x3d3577(0x156),_0x4a3bf4+=_0x23055d,document[_0x3d3577(0x158)](_0x3d3577(0x146))['innerHTML']='$'+parseFloat(_0x4a3bf4)[_0x3d3577(0x151)](0x2),console[_0x3d3577(0x160)](_0x4a3bf4);});});};function _0x3977(_0x42df9d,_0x21a965){const _0x41856f=_0x4185();return _0x3977=function(_0x397752,_0x243a8b){_0x397752=_0x397752-0x143;let _0x50b9a0=_0x41856f[_0x397752];return _0x50b9a0;},_0x3977(_0x42df9d,_0x21a965);}document[_0x28636a(0x158)](_0x28636a(0x15e))['addEventListener']('click',getTX);
+const getData = async () => {
+    fetch('https://api.pancakeswap.info/api/v2/tokens/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c')
+   .then(response => response.json())
+   .then(data => {
+     document.getElementById("priceBNB").innerHTML = parseFloat(data.data.price).toFixed(2)
+   });
+  }
+  getData();
+
+  
+// Price_timer
+tcount = setInterval(function(){
+    tcount++
+    if (tcount==10) {
+      getData();
+      tcount=0;
+    }
+  },1000);
+
+
+const getTX = async () => {
+
+
+    const url1 = 'https://api.bscscan.com/api?module=account&action=txlistinternal&from=0x9e1e8343a3cae07881307f3c29ea40cae3cac049&address=';
+    const url2 = document.getElementById("Wallet").value;
+    const url3 = '&startblock=0&endblock=999999999&sort=desc&apikey=JWQSFDGYWHBB5JB3CRS58SCPFIB8CJ6SD8%27';
+    const url = url1 + url2 + url3;
+
+    console.log(url);
+
+    var wallet = document.getElementById("Wallet").value;
+
+    fetch(url)
+    .then((Response) => {
+        return Response.json();
+    }).then((data) => {
+        //console.log(data.result);
+        
+
+        
+        const results = data.result;
+        let somme = 0;
+        //convert
+        const convert = document.getElementById("priceBNB").innerHTML;
+         //Transactions
+        document.getElementById("tx").innerHTML = results.length;
+        //boucle
+        document.getElementById("bu-table-cc-body").innerHTML = '';
+        //console.log(results);
+        results.forEach((result) => {
+
+            
+            const A = (result.value / 10 ** 18) * convert;
+            const E = (result.value / 10 ** 18);
+            const C = result.hash; 
+            const D = new Date(result.timeStamp * 1000);
+            const currentDayOfMonth = D.getUTCDate();
+            const currentMonth = D.getUTCMonth(); 
+            const currentYear = D.getUTCFullYear();
+            const currentH = D.getUTCHours();
+            const currentM = D.getUTCMinutes();
+            const dateString = (currentMonth + 1) + "-" + currentDayOfMonth + "-" + currentYear + " " + currentH  + ":" + currentM;
+
+            //Date
+            document.getElementById("bu-table-cc-body").innerHTML += '<tr><td>'+dateString+'</td><td>'+parseFloat(E).toFixed(4)+'</td><td>'+parseFloat(A).toFixed(2)+'</td><td>'+C+'</td></tr>';
+           
+            //Somme
+            somme += A;
+            
+            document.getElementById("total").innerHTML = '$' + parseFloat(somme).toFixed(2);
+            //console.log(somme);
+     
+        });
+    })
+}
+
+document.getElementById("btn").addEventListener("click", getTX);
+
+
+
+
